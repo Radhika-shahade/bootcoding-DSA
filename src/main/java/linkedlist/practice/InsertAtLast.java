@@ -1,4 +1,4 @@
-package linkedlist;
+package linkedlist.practice;
 
 public class InsertAtLast {
     public static void main(String[] args) {
