@@ -1,12 +1,12 @@
 package linkedlist.practice;
 
 public class DeleteAtFirst {
-    public static void deleteFirstNode(Node head)
+    public static Node deleteFirstNode(Node head)
     {
         Node temp= head;
         head=head.next;
         temp.next=null;
-       printLinkedList(head);
+      return head;
 
     }
     public static Node createLinkedList()
@@ -36,7 +36,7 @@ public class DeleteAtFirst {
         System.out.println("Before deleting");
         printLinkedList(head);
         System.out.println("After Deleting");
-         deleteFirstNode(head);
-//        printLinkedList(head);
+        head= deleteFirstNode(head);
+         printLinkedList(head);
     }
 }
