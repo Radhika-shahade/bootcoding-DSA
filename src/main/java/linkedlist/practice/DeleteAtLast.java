@@ -44,7 +44,7 @@ public class DeleteAtLast {
         System.out.println("Before Deleting");
         printLinkedList(head);
         System.out.println("After deleting ");
-        deleteAtLast(head);
+        head=deleteAtLast(head);
         printLinkedList(head);
 
 
