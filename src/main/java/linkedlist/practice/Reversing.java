@@ -18,7 +18,6 @@ public class Reversing {
             previous= current;
             current=temp;
 
-
         }
         return previous;
     }
