@@ -19,6 +19,7 @@ public class RightNodesValue {
         }
         rightNodes(current.right,val);
         val.add(current.data);
+
     }
 
     public static void main(String[] args) {
