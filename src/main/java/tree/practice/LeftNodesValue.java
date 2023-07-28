@@ -27,6 +27,7 @@ public class LeftNodesValue {
         root.left=new TreeNode(30);
         root.right=new TreeNode(22);
         System.out.println(leftNodeTraversal(root));
+
     }
 
 
