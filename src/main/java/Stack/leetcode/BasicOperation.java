@@ -1,4 +1,4 @@
-package Stack.practice;
+package Stack.leetcode;
 //push,pop,peek
 public class BasicOperation {
     int top=-1;
